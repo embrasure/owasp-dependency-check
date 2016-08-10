@@ -1,0 +1,11 @@
+command:
+  for i in $(ls -d /tmp/*); do echo ${i}; done:
+    exit-status: 0
+    stdout: 
+     - /tmp/dependency-check
+     - /tmp/docker-entrypoint.sh
+     - /tmp/goss
+     - /tmp/hsperfdata_root
+     - /tmp/report
+    stderr: []
+    timeout: 10000

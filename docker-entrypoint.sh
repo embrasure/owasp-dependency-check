@@ -1,6 +1,5 @@
 #!/bin/sh
 
-/tmp/dependency-check/bin/dependency-check.sh --scan "/src" \
+/tmp/dependency-check/bin/dependency-check.sh --scan "/tmp/src" \
   --format "ALL" \
-  --project "dc-project" \
-  --suppression "/tmp/suppressions/dependency-check-suppression.xml"
+  --project $(PROJECT_NAME)
