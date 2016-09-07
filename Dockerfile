@@ -8,7 +8,7 @@ RUN apk update && \
     apk add bash curl wget && \
     rm -rf /tmp/* /var/cache/apk/*
 
-RUN wget -qO- -O owasp.zip http://dl.bintray.com/jeremy-long/owasp/dependency-check-1.4.2-release.zip && \
+RUN wget -qO- -O owasp.zip http://dl.bintray.com/jeremy-long/owasp/dependency-check-1.4.3-release.zip && \
     unzip owasp.zip && \
     rm owasp.zip && \
     mv dependency-check /tmp/

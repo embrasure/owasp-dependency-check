@@ -1,10 +1,10 @@
 # owasp-dependency-check
 
-[![CircleCI](https://circleci.com/gh/embrasure/owasp-dependency-check.svg?style=svg)](https://circleci.com/gh/embrasure/owasp-dependency-check) [![](https://imagelayers.io/badge/embrasure/owasp-dependency-check:latest.svg)](https://imagelayers.io/?images=embrasure/owasp-dependency-check:latest 'Get your own badge on imagelayers.io') [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)]()
+[![CircleCI](https://circleci.com/gh/embrasure/owasp-dependency-check.svg?style=svg)](https://circleci.com/gh/embrasure/owasp-dependency-check) [![](https://badge.imagelayers.io/embrasure/owasp-dependency-check:latest.svg)](https://imagelayers.io/?images=embrasure/owasp-dependency-check:latest 'Get your own badge on imagelayers.io') [![Docker Pulls](https://img.shields.io/docker/pulls/embrasure/owasp-dependency-check.svg?maxAge=2592000)]() [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)]()
 
 ## About owasp-dependency-check
 
-An alpine container containing version 1.4.2 of the [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) CLI, along with a pre-seeded database to speed up scans. 
+An alpine container containing the [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) CLI, along with a pre-seeded database to speed up scans. 
 
 ## Install
 

@@ -6,7 +6,7 @@ dependencies:
   override:
     - docker info
     - docker build -t embrasure/owasp-dependency-check .
-    - docker tag embrasure/owasp-dependency-check:latest embrasure/owasp-dependency-check:1.4.2
+    - docker tag embrasure/owasp-dependency-check:latest embrasure/owasp-dependency-check:1.4.3
 test:
   override:
     - echo "Add unit tests eventually!"
